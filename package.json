@@ -1,0 +1,24 @@
+{
+  "name": "doujinshop-meta-search-services",
+  "version": "0.0.0",
+  "description": "",
+  "main": "services.js",
+  "scripts": {
+    "test": "NODE_PATH=. tape test.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "ishiduca@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "doujinshop-meta-search-service-ec-toranoana-jp": "git+https://github.com/ishiduca/doujinshop-meta-search-service-ec-toranoana-jp.git",
+    "doujinshop-meta-search-service-ec-toranoana-jp-joshi": "git+https://github.com/ishiduca/doujinshop-meta-search-service-ec-toranoana-jp-joshi.git",
+    "doujinshop-meta-search-service-www-melonbooks-co-jp": "git+https://github.com/ishiduca/doujinshop-meta-search-service-www-melonbooks-co-jp.git",
+    "minimist": "^1.2.5",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.1",
+    "yo-yo": "^1.4.1"
+  },
+  "dependencies": {
+    "xtend": "^4.0.2"
+  }
+}
